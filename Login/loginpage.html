@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fresh Drinks | Login</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="loginStyle.css">
 </head>
+
 <body>
   <div class="wrapper">
     <form action="#">
-      <img src="./comp-logo.png" />
-        <div class="input-field">
-        <input type="text" required>
-        <label>Enter your email</label>
-      </div>
+      <img src="comp-logo.png" /> 
+
       <div class="input-field">
-        <input type="password" required>
-        <label>Enter your password</label>
+        <input type="text" id="username" required>
+        <label for="username">Enter your email</label>
       </div>
+
+      <div class="input-field">
+        <input type="password" id="password" required>
+        <label for="password">Enter your password</label>
+      </div>
+
       <div class="forget">
         <label for="remember">
           <input type="checkbox" id="remember">
@@ -25,11 +30,14 @@
         </label>
         <a href="#">Forgot password?</a>
       </div>
-      <button type="submit">Log In</button>
+      <button id="login" onclick="loginCredential()" type="button">Log In</button>
       <div class="register">
         <p>Don't have an account? <a href="#">Register</a></p>
       </div>
     </form>
   </div>
+
+  <script src="login.js"></script>
 </body>
+
 </html>

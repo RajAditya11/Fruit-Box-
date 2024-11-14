@@ -1,0 +1,145 @@
+*{
+    background-color: #1A1A1D   ;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header , body{
+    margin: 0 0px 50px 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+#header-box{
+    background-color: #1A1A1D;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #F09319;
+}
+#header-text{
+    padding: 20px 0px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-size: 30px;
+    color: #FFE31A;
+}
+#main-box{
+    background-color: #1A1A1D;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-display{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px 150px;
+}
+
+.juice-box{
+    margin: 20px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 15px ;
+}
+.juice-box:hover{
+    border:1px solid  #4c4444;
+}
+.drink-img{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 280px;
+    height: 340px;
+}
+.drink-text{
+    background-color: #ffffff;
+    margin: 10px 0pc 10px 0px;
+    font-size: 30px;
+    color: #F09319;
+}
+.drink-price{
+    background-color: #ffffff;
+    margin: 10px 0px 10px 0px;
+    font-size: 25px;
+    color: black;
+}
+.drink-detail{
+    text-align: center;
+    color: black;
+    background-color: #ffffff;
+    margin: 5px 5px 10px;
+    font-size: 18px;
+}
+.drink-button{
+    background-color: #ffffff;
+    width: 150px;
+    height: auto;
+    margin: 0px;
+    padding: 1px 1px;
+    font-size: 15px;
+    font-weight:bold;
+}
+.drink-button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cart {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    height: auto    ;
+    background-color: transparent;
+}
+#cartlogo{
+    background-color: black;
+    display: flex;
+    align-items: center ;
+    justify-content:center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+#cart-logo{
+    background-color:transparent;
+    display: flex;
+    width: 80px;
+    height: 80px;
+}
+#cartlogo:hover{
+    background-color: gray;
+}
